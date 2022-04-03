@@ -1,3 +1,4 @@
 friends = ["Michael", "Charles", "Kobe", "Shaq", "Magic"]
 
-print(friends)
+if "Kobe" in friends:
+    print(friends.index("Kobe"))
